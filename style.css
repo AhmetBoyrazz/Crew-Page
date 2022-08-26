@@ -27,3 +27,22 @@
 .right-header{
     width: 30%;
 }
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    align-self: center;
+    height: 500px;
+}
+
+.img{
+    width: 300px;
+}
+
+.imgdown{
+    align-self: center;
+    width: 300px;
+}
